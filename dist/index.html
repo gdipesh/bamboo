@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <title>Root 2 shoot - Bamboo solution </title>
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+  <link rel="apple-touch-icon" href="img/logo.png">
+  <style>
+    /* Custom styles */
+    .product-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .product-card img {
+      max-width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+
+    .product-card h3 {
+      height: 6rem;
+      /* Adjust height as needed */
+    }
+  </style>
+</head>
+
+<body class="font-Poppins  ">
+
+  <!-- header -->
+
+  <header>
+    <nav
+      class="container top-0  fixed sm:relative backdrop-blur-sm   mx-auto sm:bg-white  bg-white/30 sm:flex items-center z-50 py-4  ">
+      <div class="flex items-center justify-between ">
+        <div class="flex items-start">
+          <!-- <ion-icon name="bookmark-outline"></ion-icon><strong>Brand</strong> -->
+          <img src="img/logo.png" alt="Root 2 shoot" class="w-4/12 rounded-full sm:w-4/12 md::1/12" />
+        </div>
+        <div class="flex sm:hidden items-end">
+          <ion-icon id="myNav" class="text-3xl" name="menu-outline"></ion-icon>
+        </div>
+
+      </div>
+
+      <ul id="navItems"
+        class=" transition delay-75 duration-150  scroll-smooth hidden  sm:flex flex-col sm:flex-row  flex-1 sm:justify-end justify-start  sm:items-center pl-2 gap-6 sm:gap-12  text-blue-800 uppercase text-xs">
+        <li class="cursor-pointer hover:decoration-4"><a href="#" class="">Home</a></li>
+        <li class="cursor-pointer"><a href="#products" class="">Products</a></li>
+        <li class="cursor-pointer"><a href="#devA">Collabration</a></li>
+      </ul>
+
+    </nav>
+  </header>
+  <!--  ghantay hero -->
+  <section class="relative">
+    <div class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28 gap-x-24">
+      <!-- content -->
+      <div class="flex flex-1 flex-col items-center lg:items-start ms-md-6 mx-4">
+        <h1 class="text-blue text-3xl md:text-4xl lg:text-5xl text-center lg:text-left mb-3">
+          Root 2 Shoot
+        </h1>
+        <!-- <h2 class="text-gray-500 text-lg text-center lg:text-left mb-1">  - Bamboo solution</h2> -->
+        <p class="text-gray-500 text-lg text-center lg:text-left mb-6">A man is born in a bamboo cradle and goes away in
+          a bamboo coffin. Everything in between is possible with bamboo!</p>
+
+      </div>
+      <!-- image -->
+
+      <div class="flex justify-center flex-1 mb-10 md:md-16 lg:mb-0 z-10">
+        <img class="w-5/6 h-5/6 sm:w-2/4 sm:h-2/4  rounded-full" src="img/logo.png" alt="svg">
+      </div>
+
+    </div>
+    <!-- runded ractangle -->
+    <div
+      class="hidden md:block overflow-hidden bg-blue-600 rounded-l-full absolute h-80 w-2/4 top-32 right-0 lg:-bottom-28  ">
+    </div>
+
+
+
+  </section>
+
+  <!-- ghanty intros -->
+  <section id="products" class="bg-white py-20 mt-20 lg:mt-60 ">
+    <!-- heading -->
+    <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2 ">
+      <h1 class="text-3xl text-center text-blue-900">products of Root 2 Shoot</h1>
+    </div>
+
+    <!-- ghantye no 1 -->
+    <div class="relative mt-20 lg:mt-24">
+
+      <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
+        <!-- image -->
+        <div class="flex flex-1 flex-wrap justify-start z-10 mb-10 lg:mb-0">
+          <img class=" w-4/6 h-4/6 " src="img/process/banaeko3.png" alt="">
+          <img class=" w-2/6 h-2/6 " src="img/process/banaeko2.png" alt="">
+          <img class="w-2/6 h-2/6" src="img/process/banaeko1.png" alt="">
+          <img class=" w-4/6 h-4/6 " src="img/process/finished.png" alt="">
+        </div>
+        <!-- content -->
+        <div class="flex flex-1 flex-col items-center lg:items-start">
+          <h1 class="text-3xl text-blue">Bamboo Product Making Process</h1>
+          <h3 class="text-3xl text-blue"> ...</h3>
+          <p class="text-gray-600 my-4 text-center lg:text-left sm:w3/4 lg:w-full">
+            Harvesting and Preparing Bamboo
+            Cutting and Shaping Bamboo
+            Assembly and Joining Bamboo Strips
+            Finishing and Treatment
+          </p>
+          <p class="text-gray-600 my-4 text-center lg:text-left sm:w3/4 lg:w-full">
+            The process of crafting bamboo products involves meticulous selection of bamboo shoots, which are then cured
+            to remove moisture and prevent decay. Skilled artisans cut and shape the cured bamboo into desired forms,
+            often employing traditional techniques passed down through generations. Finally, the products are finished
+            with natural oils or varnishes to enhance durability and highlight the natural beauty of bamboo.
+          </p>
+          <div class="flex items-center  sm:flex-row gap-4">
+
+            </a>
+            <a href="http://instagram.com/notpradip" target="_blank">
+              <img src="img/instagram.svg" class="w-12" alt="instagram">
+            </a>
+            <a href="https://www.facebook.com/GhantaGaming" target="_blank">
+              <img src="img/facebook.svg" class="w-12" alt="instagram">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="hidden lg:block overflow-hidden bg-purple rounded-r-full absolute h-80 w-2/4 -bottom-24 -left-36">
+      </div>
+    </div>
+
+    <hr>
+
+  </section>
+
+  <!-- ............................................................................... -->
+  <!-- ...................................anzypara ........................ -->
+
+  <!-- anzy hero -->
+  <!-- <section id="anzy" class="relative">
+    <div class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28 ">
+      - content --
+      <div class="flex flex-1 flex-col items-center lg:items-start">
+        <h2 class="text-blue text-3xl md:text-4xl lg:text-5xl text-center lg:text-left mb-6">
+          Gaming Video creator
+        </h2>
+        <p class="text-gray-500 text-lg text-center lg:text-left mb-6"> We are online game players. We hav been
+          playing
+          many e-sports since one years ago </p>
+        <div class="flex justify-center flex-wrap gap-6">
+          <button type="button" class="btn  btn-purple hover:bg-white hover:text-black"><a href="http://instagram.com/anzyparz">Follow</a></button>
+          <button type="button" class="btn hover:bg-slate-100 hover:text-black btn-white"> <a href="#anzyintro">More..</a> </button>
+        </div>
+      </div>
+
+      <!-- image --
+
+      <div class="flex justify-center flex-1 mb-10 md:md-16 lg:mb-0 z-10">
+        <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:rounded-full md:h-full "
+          src="img/anzyhero.jpg"
+          alt="anzypara">
+      </div>
+
+    </div>
+    <!-- runded ractangle --
+    <div
+      class="hidden md:block overflow-hidden bg-blue-600 rounded-l-full absolute h-80 w-2/4 top-32 right-0 lg:-bottom-28  ">
+    </div>
+
+
+
+  </section>
+  <div id="anzyintro" class="relative mt-20 lg:mt-52">
+
+    <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
+      image --
+      <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+        <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full rounded-full shrink" src="img/anzy.jpg" alt="">
+      </div>
+      -- content --
+      <div class="flex flex-1 flex-col items-center lg:items-start">
+        <h1 class="text-3xl text-blue">Anjana Parajuli</h1>
+        <h3 class="text-3xl text-blue"> products of Anzypara</h3>
+        <p class="text-gray-600 my-4 text-center lg:text-left sm:w3/4 lg:w-full">
+          streaming journy in 2021 and currently holds 36k+ Followers in her page. She is one of the most entertaining and attractive female Nepali Streamer who always carry a smile on her face.Anzypara mostly plays, PUBG Mobile, GTA V Roleplay, Valorant and few other online/offline games. Her daily live stream contains GTA V Roleplay and PUBG Mobile Rush Gameplay with her friends and with her fans who loves to play with her.
+        </p>
+        <div class="flex items-center  sm:flex-row gap-4">
+
+          </a>
+          <a href="http://instagram.com/anzypara" target="_blank">
+            <img src="img/instagram.svg" class="w-12" alt="instagram">
+          </a>
+          <a href="https://www.facebook.com/Anzypara" target="_blank">
+            <img src="img/facebook.svg" class="w-12" alt="instagram">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="hidden lg:block overflow-hidden bg-purple rounded-r-full absolute h-80 w-2/4 left-0 -bottom-24 ">
+    </div>
+  </div> -->
+
+
+
+  <!-- Download -->
+  <section class="py-20 mt-20">
+    <!-- heading -->
+    <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
+      <h1 class="text-3xl text-center text-blue-900"> Our Products</h1>
+    </div>
+
+    <!-- cards -->
+    <div class="container mx-auto px-4 mt-16">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+        <!-- card 1 -->
+        <div class="flex flex-col rounded-md shadow-md bg-white  product-card">
+          <div class="p-6 flex flex-col items-center">
+            <img src="img/products/briquetts.png" alt="Briquetts" class="mt-4 w-5/6 h-5/6 sm:w-3/4 sm:h-3/4">
+            <h3 class="mt-5 mb-2 text-blue-900 text-lg ">Briquetts</h3>
+          </div>
+        </div>
+        <!-- card 2 -->
+        <div class="flex flex-col rounded-md shadow-md bg-white  product-card">
+          <div class="p-6 flex flex-col items-center">
+            <img src="img/products/dalo.png" alt="Daalo" class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4">
+            <h3 class="mt-5 mb-2 text-blue-900 text-lg ">Daalo</h3>
+          </div>
+        </div>
+        <!-- card 3 -->
+        <div class="flex flex-col rounded-md shadow-md bg-white  product-card">
+          <div class="p-6 flex flex-col items-center">
+            <img src="img/products/plate.png" alt="Bamboo plate" class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4">
+            <h3 class="mt-5 mb-2 text-blue-900 text-lg ">Bamboo plate</h3>
+          </div>
+        </div>
+        <!-- card 4 -->
+        <div class="flex flex-col rounded-md shadow-md bg-white  product-card">
+          <div class="p-6 flex flex-col items-center">
+            <img src="img/products/ring.png" alt="Ear ring" class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4">
+            <h3 class="mt-5 mb-2 text-blue-900 text-lg ">Ear ring</h3>
+          </div>
+        </div>
+        <!-- card 5 -->
+        <div class="flex flex-col rounded-md shadow-md bg-white  product-card">
+          <div class="p-6 flex flex-col items-center">
+            <img src="img/products/chopstick.png" alt="Chopstick" class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4">
+            <h3 class="mt-5 mb-2 text-blue-900 text-lg ">Chopstick</h3>
+          </div>
+        </div>
+        <!-- Add more cards as needed -->
+      </div>
+    </div>
+  </section>
+  <!-- faq -->
+  <!-- <section class="bg-gray-300 py-20">
+    <div class="container">
+      <!-- heading --
+      <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2  ">
+        <h1 class="text-center font-light text-blue-900">Frequently Asked Questions</h1>
+        <p class="text-center  text-gray-400  mt-4 ">so many people are visiting our website and the asked us so many
+          same Questions. some FAQ given below
+        </p>
+      </div>
+      <!-- AQ Items --
+      <div class="flex flex-col sm:w-3/4 lg:w-5/12 mt-12 mx-auto ">
+
+
+        <div class="flex flex-wrap items-center border-b py-4">
+          <div id="oneQ" class="flex flex-1 items-center justify-around">
+            <span class="flex-1">Who is Ghantye ?</span>
+            <ion-icon name="chevron-down-outline"></ion-icon>
+          </div>
+          <div id="oneA" class="hidden">
+            <p class="text-center">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, sint?
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-wrap items-center border-b py-4">
+          <div id="twoQ" class="flex flex-1 items-center justify-around">
+            <span class="flex-1">Who is desiner of this website ?</span>
+            <ion-icon name="chevron-down-outline"></ion-icon>
+          </div>
+          <div id="twoA" class="hidden" loding="lazy">
+            <p class="text-center">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, sint?
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-wrap items-center border-b py-4">
+          <div id="threeQ" class="flex flex-1 items-center justify-around">
+            <span class="flex-1">Who is Anzypara ?</span>
+            <ion-icon name="chevron-down-outline"></ion-icon>
+          </div>
+          <div id="threeA" class="hidden">
+            <p class="text-center">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, sint?
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-wrap items-center border-b py-4">
+          <div id="devQ" class="flex flex-1 items-center justify-around">
+            <span class="flex-1">can we get Developer Contact ?</span>
+            <ion-icon name="chevron-down-outline"></ion-icon>
+          </div>
+          <div id="devA" class="hidden">
+            <p class="text-center">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, sint?
+            </p>
+          </div>
+        </div>
+        <button type="button " class="btn btn-purple hover:bg-white hover:text-black">More Info </button>
+      </div>
+    </div>
+
+  </section> -->
+
+  <!-- communities impacts  -->
+  <div class="relative mt-20 lg:mt-24">
+
+    <div class="container flex flex-col lg:flex-row items-center justify-center mx-2 gap-x-24">
+      <!-- image -->
+      <div class="flex flex-1 flex-wrap justify-start z-10 mb-10 lg:mb-0">
+        <img class=" w-6/6 h-6/6 rounded" src="img/Communities/communities.png" alt="">
+      </div>
+      <!-- content -->
+      <div class="flex flex-1 flex-col items-center lg:items-start">
+        <h1 class="text-3xl text-blue">Communities impacted</h1>
+        <h3 class="text-3xl text-blue"> ...</h3>
+        <p class="text-gray-600 my-4 text-center lg:text-left sm:w3/4 lg:w-full">
+          Geography of the Bhujel Village:
+          Geography of the Bhujel Village: Deurali Community Forest, where the Bhujel village lies:
+          Deurali Community Forest is situated in Nawalpur district's Gaidakot Municipality Ward No. 16. This area is
+          located in the Gandaki province, approximately 150 kilometers southwest of Kathmandu and about 130 kilometers
+          south of the provincial capital, Pokhara. The community forest ranges from 200 to 600 meters above sea level,
+          with a mostly hilly terrain.
+        </p>
+        <p class="text-gray-600 my-4 text-center lg:text-left sm:w3/4 lg:w-full">
+          The process of crafting bamboo products involves meticulous selection of bamboo shoots, which are then cured
+          to remove moisture and prevent decay. Skilled artisans cut and shape the cured bamboo into desired forms,
+          often employing traditional techniques passed down through generations. Finally, the products are finished
+          with natural oils or varnishes to enhance durability and highlight the natural beauty of bamboo.
+        </p>
+        <div class="flex items-center  sm:flex-row gap-4">
+
+          </a>
+          <a href="http://instagram.com/notpradip" target="_blank">
+            <img src="img/instagram.svg" class="w-12" alt="instagram">
+          </a>
+          <a href="https://www.facebook.com/GhantaGaming" target="_blank">
+            <img src="img/facebook.svg" class="w-12" alt="instagram">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="hidden lg:block overflow-hidden bg-purple rounded-r-full absolute h-80 w-2/4 -bottom-24 -left-36">
+    </div>
+  </div>
+  <!-- colab  -->
+  <section class="bg-lime-600 text-black py-20">
+    <div class="container ">
+      <div class="sm: w-3/4 lg:w-2/4 mx-auto">
+        <p class="font-light uppercase text-center mb-8 ">Collabration With </p>
+        <!-- <h1 class="text-3xl text-center"> </h1> -->
+        <div class="flex items-center">
+
+          <img src="img/colab/iof.png" alt="iof" class="w-2/6 h-2/6">
+          <img src="img/colab/nyca.png" alt="iof" class="w-2/6 h-2/6">
+        </div>
+        <div class="flex flex-col sm:flex-row gap-6 mt-8">
+          <input type="text" class="focus:outline-none rounded-md text-black flex-1  px-2 py-3"
+            placeholder="Enter your email Address" />
+          <button type="button " class="btn bg-red-600 hover:bg-white hover:text-black"><a
+              href="mailto:gdipesh913@gmail.com">Contact US </a></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="bg-blue-900 py-8">
+    <div class="container flex flex-col md:flex-row items-center">
+      <div class="flex flex-1 flex-wrap items-center justify-center md:justify-start gap-12">
+
+        <img src="img/logo.png" alt="Ghanta Gaming" class="w-3/12 sm:w-2/12 md:w-1/12 rounded-full" />
+
+        <ul class="flex flex-wrap text-white uppercase gap-12 text-xs ">
+          <li class="cursor-pointer"><a href="#products">products</a></li>
+          <!-- <li class="cursor-pointer">Contact</li> -->
+          <li class="cursor-pointer font-medium">Designed By <a href="https://facebook.com/whoisdipeshgautam"
+              class="text-pink-600  font-medium">Dipesh Gautam</a></li>
+        </ul>
+      </div>
+      <div class="flex gap-10 mt-12 md:mt-0 ">
+        <li class="cursor-pointer text-white text-2xl list-none">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </li>
+        <li class="cursor-pointer text-white text-2xl list-none ">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </li>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="../src/js/jquery.min.js"></script>
+  <script src="../src/js/app.js"></script>
+</body>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</html>
